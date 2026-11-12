@@ -1,5 +1,20 @@
+# Dependencies
 node_modules/
 
+# Environment secrets
 .env
-.env.local
-.env.development.local
+.env.*
+!.env.example
+
+# AWS private keys
+*.pem
+
+# Logs
+*.log
+
+# Private PDF files
+backend/private-pdfs/
+
+# System files
+.DS_Store
+Thumbs.db
