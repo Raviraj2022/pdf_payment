@@ -12,11 +12,11 @@ const sessions = new Map();
 
 // CREATE ORDER
 exports.createOrder = async (req, res) => {
-    console.log("Razorpay Key ID:", process.env.RAZORPAY_KEY_ID);
-console.log(
-  "Secret loaded:",
-  Boolean(process.env.RAZORPAY_KEY_SECRET)
-);
+//     console.log("Razorpay Key ID:", process.env.RAZORPAY_KEY_ID);
+// console.log(
+//   "Secret loaded:",
+//   Boolean(process.env.RAZORPAY_KEY_SECRET)
+// );
   try {
     const { pdfId } = req.body;
 
